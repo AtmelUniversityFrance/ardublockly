@@ -35,10 +35,25 @@ body {
   user-select: none;
 }
 
+img {
+vertical-align:middle;
+}
 
 /*********************/
 /*  Arduino Colours  */
 /*********************/
+.mchp_atmel_old {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ed2724+0,0079c2+100 */
+background: #ed2724; /* Old browsers */
+background: -moz-linear-gradient(left, #ed2724 0%, #0079c2 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #ed2724 0%,#0079c2 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #ed2724 0%,#0079c2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed2724', endColorstr='#0079c2',GradientType=1 ); /* IE6-9 */
+}
+.mchp_atmel {
+  background-color: #AAAAAA;
+}
+
 .arduino_teal {
   background-color: #00979C;
 }
